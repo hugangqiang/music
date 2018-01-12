@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,user-scalable=no" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>music</title>
+    <script>
+        let resize = () => {
+            document.querySelector('html').style.fontSize =  document.documentElement.clientWidth/15 + 'px';
+        }
+        resize()
+        onresize = resize
+    </script>
+</head>
+<body>
+    <div id="root"></div>
+    <script src="/assets/main.js"></script>
+</body>
+</html>

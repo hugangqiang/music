@@ -1,0 +1,25 @@
+@font-face {
+    font-family: 'hm-ui';  /* project id 456786 */
+    src: url('//at.alicdn.com/t/font_456786_bj26bc83wx3l3di.eot');
+    src: url('//at.alicdn.com/t/font_456786_bj26bc83wx3l3di.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_456786_bj26bc83wx3l3di.woff') format('woff'),
+    url('//at.alicdn.com/t/font_456786_bj26bc83wx3l3di.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_456786_bj26bc83wx3l3di.svg#hm-ui') format('svg');
+}
+.icon{
+    font-family:"hm-ui" !important;
+    font-style:normal;
+    -webkit-font-smoothing: antialiased;
+    -webkit-text-stroke-width: 0.2px;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+input,
+button {
+    -webkit-appearance: none;
+    outline: none;
+    border-radius: 0;
+}
