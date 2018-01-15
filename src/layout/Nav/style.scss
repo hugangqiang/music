@@ -24,6 +24,9 @@ $lineColor: #e7e9e9;
     .box.active{
         color: #fff;
     }
+    .active .box{
+        color: #fff;
+    }
     .nav{
         display: flex;
         flex-direction: row;

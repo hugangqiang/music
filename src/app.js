@@ -19,7 +19,8 @@ axios.defaults.baseURL = 'https://musicApi.hugangqiang.com';
 ReactDOM.render(
     <Router>
         <div>
-            <Route path="/" component={Frame} />
+            <Route exact path="/" component={Frame} />
+            <Route path="/search" component={Frame} />
         </div>
     </Router>,
     document.getElementById('root')

@@ -16,10 +16,14 @@
 body{
     margin: 0;
     padding: 0;
+    overflow: hidden;
 }
 input,
 button {
     -webkit-appearance: none;
     outline: none;
     border-radius: 0;
+}
+a:-webkit-any-link {
+    text-decoration: none;
 }
