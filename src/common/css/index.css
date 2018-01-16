@@ -1,10 +1,10 @@
 @font-face {
     font-family: 'hm-ui';  /* project id 456786 */
-    src: url('//at.alicdn.com/t/font_456786_bj26bc83wx3l3di.eot');
-    src: url('//at.alicdn.com/t/font_456786_bj26bc83wx3l3di.eot?#iefix') format('embedded-opentype'),
-    url('//at.alicdn.com/t/font_456786_bj26bc83wx3l3di.woff') format('woff'),
-    url('//at.alicdn.com/t/font_456786_bj26bc83wx3l3di.ttf') format('truetype'),
-    url('//at.alicdn.com/t/font_456786_bj26bc83wx3l3di.svg#hm-ui') format('svg');
+    src: url('//at.alicdn.com/t/font_456786_63pefjrhmek4kj4i.eot');
+    src: url('//at.alicdn.com/t/font_456786_63pefjrhmek4kj4i.eot?#iefix') format('embedded-opentype'),
+    url('//at.alicdn.com/t/font_456786_63pefjrhmek4kj4i.woff') format('woff'),
+    url('//at.alicdn.com/t/font_456786_63pefjrhmek4kj4i.ttf') format('truetype'),
+    url('//at.alicdn.com/t/font_456786_63pefjrhmek4kj4i.svg#hm-ui') format('svg');
 }
 .icon{
     font-family:"hm-ui" !important;
@@ -17,6 +17,11 @@ body{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
 }
 input,
 button {
@@ -26,4 +31,12 @@ button {
 }
 a:-webkit-any-link {
     text-decoration: none;
+}
+body *{
+    box-sizing: border-box;
+}
+input{
+    caret-color: auto;
+    caret-color: transparent;
+    caret-color: #fff;
 }

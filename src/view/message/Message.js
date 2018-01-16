@@ -1,6 +1,6 @@
 import Frame from 'frame/Frame'
 
-export class Home extends React.Component {
+export class Message extends React.Component {
     constructor(props) {
         super(props);
         this.state = {  }
@@ -9,10 +9,10 @@ export class Home extends React.Component {
         return (  
             <div>
                 <Frame />
-                首页页面
+                留言页面
             </div>
         )
     }
 }
  
-export default Home;
+export default Message;

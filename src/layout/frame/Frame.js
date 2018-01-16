@@ -1,4 +1,5 @@
 import Nav from 'nav/Nav';
+import Web from 'web/Web.js';
 
 export class Frane extends React.Component {
     constructor(props) {
@@ -13,5 +14,5 @@ export class Frane extends React.Component {
         )
     }
 }
- 
+
 export default Frane;

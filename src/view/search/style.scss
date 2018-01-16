@@ -1,0 +1,44 @@
+$ColorActive: #d43c33;
+$bgColor: #f2f4f5;
+$fontColor: #333;
+$lineColor: #e7e9e9;
+
+@function pxToRem($px) {
+    @return $px / 50 * 1rem;
+}
+
+.header{
+    width: pxToRem(750);
+    height: pxToRem(110);
+    background: $ColorActive;
+    display: flex;
+    flex-direction: row;
+    .box{
+        width: pxToRem(110);
+        height: pxToRem(110);
+        line-height: pxToRem(110);
+        text-align: center;
+        font-size: pxToRem(45);
+        color: $bgColor; 
+    }
+    .searchInput{
+        background: rgba(0,0,0,0);
+        border: none;
+        width: pxToRem(630);
+        height: pxToRem(90);
+        line-height: pxToRem(90);
+        color: $bgColor;
+        font-size: pxToRem(30);
+        border-bottom: 1px solid rgba(255,255,255,.7);
+        padding: pxToRem(10) pxToRem(10) 0 pxToRem(10);
+        
+    }
+}
+.content{
+    background: $bgColor;
+    position: absolute;
+    top: pxToRem(110);
+    left: 0;
+    right: 0;
+    bottom: 0;
+}

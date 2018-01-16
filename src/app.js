@@ -1,5 +1,8 @@
 import { BrowserRouter as Router, Route} from 'react-router-dom';
-import Frame from 'frame/Frame'
+import Home from 'view/home/Home'
+import Message from 'view/message/Message'
+import Search from 'view/search/Search'
+import Web from 'view/web/Web'
 
 require('common/css/index.css');
 
@@ -19,8 +22,10 @@ axios.defaults.baseURL = 'https://musicApi.hugangqiang.com';
 ReactDOM.render(
     <Router>
         <div>
-            <Route exact path="/" component={Frame} />
-            <Route path="/search" component={Frame} />
+            <Route exact path="/" component={Home} />
+            <Route exact path="/web" component={Web} />
+            <Route exact path="/message" component={Message} />
+            <Route exact path="/search" component={Search} />
         </div>
     </Router>,
     document.getElementById('root')
